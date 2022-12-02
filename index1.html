@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td{
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: GREEN;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: red">bang A aff cup 2023</h1>
+<table border="1" style="width:100%">
+    <tr>
+        <TH>vong sau</TH>
+        <th>stt</th>
+        <th>name</th>
+        <th>number</th>
+        <th>point</th>
+    </tr>
+    <tr>
+        <td rowspan="2">vao trong</td>
+        <td>1</td>
+        <td>viet nam</td>
+        <td>3</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>2</td>
+    <td>campuchia</td>
+    <td>3</td>
+    <td>0</td>
+    </tr>
+    <tr>
+        <td rowspan="2">ve nuoc</td>
+        <td>3</td>
+    <td>lao</td>
+    <td>3</td>
+    <td>6</td>
+    </tr>
+    <tr>
+        <td>4</td>
+    <td>thai</td>
+    <td>3</td>
+    <td>0</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>tong</td>
+       <td colspan="3"></td>
+    </tr>
+<table/>
+    <form action="/action_page.php">
+        doi tuyen duoc yeu thich:<br>
+        <input type="radio" name="gender" value="vietnam"checked>vietnam<br>
+        <input type="radio" name="gender" value="campuchia">campuchia<br>
+        <input type="radio" name="gender" value="lao">lao<br>
+        <input type="radio" name="gender" value="thailan">thailan<br>
+        <input type="boutton" onclick="alert(`thankyou`)" value="binh chon">
+
+    </form>
+    <form action="/action_page.php">
+        doi tuyen yeu thich:<br>
+        <input type="text" name="doi tuyen" value="vietnam"><br><br>
+        <input type="submit" value="binh chon"><br><br><br>
+
+    </form><br><br><br><br>
+    <form >
+    <select>
+        <option value="">vietnam</option>
+        <option>lao</option>
+        <option>campuchia</option>
+        <option>thailan</option>
+    </select><br>
+        <input type="submit" value="binh chon">
+    </form>
+
+
+</body>
+</html>
